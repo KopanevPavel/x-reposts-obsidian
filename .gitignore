@@ -1,0 +1,10 @@
+.env
+.xro/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+X-Reposts-Obsidian/
+.DS_Store

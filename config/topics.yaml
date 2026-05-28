@@ -1,0 +1,163 @@
+topics:
+  3D Vision:
+    - 3d
+    - point cloud
+    - depth
+    - pose estimation
+    - reconstruction
+    - multi-view
+    - multiview
+    - mesh
+    - lidar
+    - rgb-d
+    - scene understanding
+    - spatial ai
+    - geometry
+
+  Robotics:
+    - robot
+    - robotics
+    - embodied
+    - manipulation
+    - navigation
+    - locomotion
+    - grasp
+    - planning
+    - sim2real
+    - ros
+    - autonomous robot
+    - mobile robot
+
+  VLA Models:
+    - vla
+    - vision-language-action
+    - vision language action
+    - openvla
+    - robot foundation model
+    - embodied reasoning
+    - action model
+    - policy model
+
+  SLAM and Localization:
+    - slam
+    - visual-inertial
+    - visual inertial
+    - vins
+    - localization
+    - mapping
+    - odometry
+    - bundle adjustment
+    - loop closure
+    - place recognition
+
+  NeRF and Neural Rendering:
+    - nerf
+    - radiance field
+    - neural rendering
+    - gaussian splatting
+    - 3dgs
+    - novel view
+
+  Computer Vision:
+    - computer vision
+    - segmentation
+    - detection
+    - tracking
+    - optical flow
+    - image
+    - video
+    - opencv
+    - vision transformer
+    - vit
+    - diffusion
+    - sam
+    - clip
+
+  Foundation Models:
+    - foundation model
+    - llm
+    - vlm
+    - large language model
+    - multimodal
+    - transformer
+    - pretraining
+    - fine-tuning
+    - finetuning
+    - rag
+
+  AI Agents:
+    - agent
+    - agents
+    - tool use
+    - reasoning
+    - planning
+    - computer use
+    - browser agent
+    - workflow
+    - autonomous agent
+
+  GPU:
+    - gpu
+    - gpus
+    - cuda
+    - nvidia
+    - h100
+    - h200
+    - b100
+    - b200
+    - blackwell
+    - grace blackwell
+    - tensor core
+    - vram
+    - nvlink
+    - inference acceleration
+    - training acceleration
+    - fp4
+    - fp8
+    - triton
+    - kernel
+    - kernels
+    - cudnn
+    - tensorrt
+    - dgx
+    - gb200
+    - gb10
+
+  Research Papers:
+    - paper
+    - arxiv
+    - benchmark
+    - dataset
+    - sota
+    - evaluation
+    - cvpr
+    - iccv
+    - eccv
+    - neurips
+    - iclr
+    - icml
+    - rss
+    - corl
+    - acl
+    - emnlp
+
+  Open Source:
+    - github
+    - repo
+    - open source
+    - code release
+    - implementation
+    - library
+    - toolkit
+    - sdk
+
+  Startups and Products:
+    - startup
+    - product
+    - launch
+    - funding
+    - demo
+    - beta
+    - waitlist
+    - company
+    - pricing

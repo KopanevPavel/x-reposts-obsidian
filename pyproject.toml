@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "x-reposts-obsidian"
+version = "0.5.0"
+description = "Fetch your X reposts via X API v2 and generate an Obsidian graph vault."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Pavel Kopanev" }]
+dependencies = [
+  "requests>=2.32.0",
+  "python-dotenv>=1.0.1",
+  "PyYAML>=6.0.2",
+  "tqdm>=4.66.0"
+]
+
+[project.scripts]
+xro = "xreposts_obsidian.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+xreposts_obsidian = []
