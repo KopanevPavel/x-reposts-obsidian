@@ -403,4 +403,4 @@ Retryable failures include connection/read timeouts, transient connection errors
 
 ## Cost for X.com API usage
 
-In my case, I paid less than $1 to retrieve 3,500 of my reposts.
+In my case, I paid less than $1 to retrieve 1000 of my reposts.
