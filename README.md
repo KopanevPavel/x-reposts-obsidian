@@ -4,6 +4,14 @@ This project fetches your own reposts from the X API v2 and turns them into an O
 
 It does **not** use the X archive download. It uses OAuth 2.0 Authorization Code with PKCE, calls `/2/users/me`, then paginates `/2/users/{id}/tweets`, detects reposts from `referenced_tweets.type == "retweeted"`, and writes Markdown notes connected by authors, topics, hashtags, and linked domains.
 
+## Roadmap / Future features
+
+- [ ] Incremental vault updates: fetch only new reposts and update the existing Obsidian graph without full regeneration.
+- [ ] Better LLM cache progress logging: show how many items are cache hits, cache misses, newly processed, retried, and failed.
+- [ ] Resume-safe builds: continue from the last successful page/repost after API timeout, LLM failure, or interrupted run.
+- [ ] Topic management tools: merge, rename, split, or pin topics so the graph stays clean after multiple runs.
+- [ ] Cost and quota estimation: estimate X API reads before running and optionally stop at a user-defined budget/page limit.
+
 ## Version 0.3 changes
 
 - Added `--llm-concurrency` for concurrent Ollama classification requests.
