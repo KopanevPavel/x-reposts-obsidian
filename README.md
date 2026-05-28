@@ -2,6 +2,11 @@
 
 # X Reposts → Obsidian Graph
 
+<a href="https://obsidian.md"><img src="https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white" alt="Obsidian" /></a>
+<a href="https://x.com"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+<a href="https://github.com/KopanevPavel/x-reposts-obsidian/tree/main/tests"><img src="https://img.shields.io/badge/Tests-pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests" /></a>
+<a href="https://github.com/KopanevPavel/x-reposts-obsidian/actions/workflows/tests.yml"><img src="https://github.com/KopanevPavel/x-reposts-obsidian/actions/workflows/tests.yml/badge.svg?branch=main" alt="CI status" /></a>
+
 <img src="misc/animation.gif" width="420" alt="X Reposts to Obsidian graph animation" />
 
 </div>
@@ -325,6 +330,17 @@ tag:#x/cluster/robotics
 
 ```text
 tag:#x/repost tag:#x/cluster/robotics
+```
+
+## Tests
+
+Unit tests live in [`tests/`](https://github.com/KopanevPavel/x-reposts-obsidian/tree/main/tests) and cover utilities, topic classification, and concurrent LLM note generation.
+
+Run them with `pytest` from the project root:
+
+```bash
+pip install pytest
+pytest -v
 ```
 
 ## Security notes
