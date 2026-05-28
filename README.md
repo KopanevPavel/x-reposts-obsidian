@@ -1,8 +1,22 @@
+<div align="center">
+
 # X Reposts → Obsidian Graph
+
+<img src="misc/animation.gif" width="420" alt="X Reposts to Obsidian graph animation" />
+
+</div>
 
 This project fetches your own reposts from the X API v2 and turns them into an Obsidian vault with LLM-generated titles, topic assignments, topic summaries, and graph-friendly Markdown links.
 
 It does **not** use the X archive download. It uses OAuth 2.0 Authorization Code with PKCE, calls `/2/users/me`, then paginates `/2/users/{id}/tweets`, detects reposts from `referenced_tweets.type == "retweeted"`, and writes Markdown notes connected by authors, topics, hashtags, and linked domains.
+
+## Example
+
+A full Obsidian graph generated from a real set of reposts — topic nodes share a color with their primary child reposts via cluster tags:
+
+<p align="center">
+  <img src="misc/graph_all.png" alt="Example Obsidian graph view of generated reposts vault" width="900" />
+</p>
 
 ## Roadmap / Future features
 
@@ -156,7 +170,7 @@ http://127.0.0.1:8765/callback
 tweet.read users.read offline.access
 ```
 
-NOTE: the setup might look like this (as Website URL you can select e.g. your GitHub profile address) [image](misk/settings.png)
+NOTE: the setup might look like this (as Website URL you can select e.g. your GitHub profile address) [image](misc/settings.png)
 
 7. Copy the OAuth 2.0 Client ID.
 
